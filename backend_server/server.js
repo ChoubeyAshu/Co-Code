@@ -27,6 +27,9 @@ app.use("/api/Flushroom", webSocketRouter);
 app.use("/api/room", auth);
 app.use("/api/room", roomRouter);
 app.use(errHandler);
+app.get("/",(req, res)=>{
+  res.send("Backend Server is Running")
+})
 
 const connect = async () => {
    console.log(process.env.MONGO)
