@@ -7,7 +7,7 @@ const Footer = () => {
             <div className="footer-section about">
                 <h2>About Us</h2>
                 <p>
-                    Brief description of your project or company. This can include the mission, vision, or any other relevant information.
+                    A real-time collaborative code editor supporting up to 10 users with multi-language support, secure sessions, and conflict-free editing via WebSockets and CodeMirror.
                 </p>
             </div>
             <div className="footer-section links">
@@ -20,8 +20,8 @@ const Footer = () => {
             </div>
             <div className="footer-section contact">
                 <h2>Contact Us</h2>
-                <p>Email: info@example.com</p>
-                <p>Phone: +1 123-456-7890</p>
+                <p>Email: techashu18@gmail.com</p>
+                <p>Phone: +91 7564097137</p>
                 <div className="social-media">
                     <a href="https://facebook.com" target="_blank" rel="noopener noreferrer"><i className="fab fa-facebook-f"></i></a>
                     <a href="https://twitter.com" target="_blank" rel="noopener noreferrer"><i className="fab fa-twitter"></i></a>
